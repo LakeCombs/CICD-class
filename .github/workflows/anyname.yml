@@ -1,7 +1,7 @@
 name: student-api-github-ci
 on: [push]
 jobs:
-   check-bats-version:
+  check-bats-version:
     runs-on: ubuntu-latest
     steps:
       - uses: action/checkout@v2
